@@ -36,7 +36,7 @@ icon.addEventListener("click", ()=>{
 
 
 
-//slider_slide_sli
+/*  slider_slide_sli
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -78,7 +78,7 @@ setInterval(function () {
     plusSlides(1);
 }, 4000);  // Change slide every 4 seconds
 
-
+*/
 
 //to-top scrolling icon
 

@@ -8,18 +8,87 @@
   
 }
 
+.intro{
+    
+      
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1d1e1f;
+    padding: 10px;      
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    gap: 4px;
+}
+.intro-text{
+    
+    margin: 40px;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    color: rgb(249, 249, 251);
+    line-height: 50px;
+
+}
+
+
+  
+.intro-text h1{
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ 
+.intro-text h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro-images{
+    width: 100%;
+    padding: 20px;
+    object-fit: cover;
+    position: relative;
+}
+
+.intro-images img{
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+
+
+
 
 
 
 nav{
     width: 100%;
-    height: fit-content;
+    height: auto;
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
-    margin-top: 0%;
-    background-color: whitesmoke;
-    position: relative;
+    
+    background-color: rgb(1, 8, 14);
+    /*
+     background-image: 
+     linear-gradient(to right, rgba(250, 246, 246, 0.5), rgba(183, 175, 175, 0.5)),
+     url('images/background\,liver.jpg');
+   background-size: cover; /* Ensures the image covers the entire screen */
+   background-position: center center; /* Centers the image */
+   background-repeat: no-repeat; /* Prevents the image from repeating */
     
 
 }
@@ -27,28 +96,24 @@ nav{
     display: flex;
     padding: 0 0 0 25px;
 }
+.menubar img{
+    width: 120px;
+    height: 100px;
+    border-radius: 50%;
+}
 
 
 .icon{
     display: block;
     position: relative;
-    color: darkblue;
+    color: whitesmoke;
 }
-  
-nav img{
-    width: 70px;
-    height: 80px;
-    padding: 10px 5px 10px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-}
-
+ 
 nav h1{
     font-size: 16px;
     padding: 10px 0px 10px;
     
-    color: darkblue;
+    color: whitesmoke;
 }
 
 nav ul{
@@ -83,43 +148,6 @@ nav ul li a{
 
 
 
-/* search-bar */
-
-.search-bar {
-    display: inline-block;
-    position: relative;
-    align-items: center;
-    width: 100%;
-
-}
-
-.search-bar input {
-    
-    border: none;
-    outline: none;
-    width: 100%;
-    text-align: center;
-}
-
-.search-bar button {
-    border: none;
-    background-color: #ff6600;
-    color: white;
-    cursor: pointer;
-}
-
-.search-bar button:hover {
-    background-color: #ff4500;
-}
-
-
-.search_bar{
-    font-size: 40px;
-    color: darkblue;
-
-}
-
-
 
 
 .icon{
@@ -132,7 +160,27 @@ nav ul li a{
 hr{
     display: none;
 }
+
+
+nav ul{
+    display: none;
+}
+
+.flag{
+    display: none;
+}
+.icon{
+    display: flex;
+   
+}
+
+
+
+
+
+/*
 @media(max-width: 768px){
+    
     nav ul{
         display: none;
     }
@@ -141,10 +189,10 @@ hr{
     }
     .icon{
         display: flex;
-       /* align-items: flex-end; */
+       
     }
 
-    
+    */
 hr{
     display: block;
     color: #278003;
@@ -198,20 +246,6 @@ hr{
     
  }
 
- /*
-nav{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0%;
-    background-color: whitesmoke;
-    position: relative;
-    
-
-}
-*/
     nav {
         flex-direction: row;
         align-items: center;
@@ -221,26 +255,6 @@ nav{
 
     }
 
-   /* 
-    .search-bar {
-        width: 30%;
-        justify-content: center;
-        margin-top: 5px;
-    }
-
-    .search-bar input {
-        width: 30%;
-        padding: 5px;
-    }
-
-    .search-bar button {
-        padding: 5px;
-    }
-
-
-    */
-
-
 
 
 
@@ -249,7 +263,7 @@ nav h1{
 
 }
 
-}
+
 
 
 
@@ -1141,7 +1155,7 @@ float: right;
         display: flex;
         align-items: center;
         justify-content: center;
-        min-height: 75vh;  
+        min-height: 85vh;  
         background: linear-gradient(#9ad7ef, #5eb9fa);
         background: transparent;
     
@@ -1191,7 +1205,7 @@ float: right;
     .card-list .card-link .card-image{
     width: 100%;
     aspect-ratio: 16/9;
-    object-fit: cover;
+    object-fit: cover; 
     border-radius: 5px;
     
     }
