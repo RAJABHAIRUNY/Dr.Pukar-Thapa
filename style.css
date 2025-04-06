@@ -27,7 +27,7 @@
   
   .intro-box {
    
-    color: rgb(41, 39, 39);
+    color: rgb(8, 8, 8);
     margin: 10px;
     padding: 20px;
     text-align: center;
@@ -48,7 +48,7 @@
 
   
 .intro-box h1{
-    color: rgb(9, 9, 9);
+    color: rgb(9, 0, 0);
     font-size: 50px;
     font-style: oblique;
     font-weight: 100;
