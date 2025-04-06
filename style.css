@@ -53,18 +53,17 @@
 .intro-box h1{
     color: rgb(9, 0, 0);
     font-size: 50px;
-    font-style: oblique;
     justify-content: center;
     align-items: center;
     text-align: center; 
-    font-weight: bold;
+    font-weight: 500;
     
  }
  
   
  .intro-box h2{
      font-size: 20px;
-     font-style: italic;      
+           
      justify-content: center;
      align-items: center;
      text-align: center;
@@ -105,13 +104,12 @@
   
   @media (max-width: 480px) {
     .intro-box {
-        font-weight: bold;
     
       flex: 1 1 100%; /* 1 item per row on small screens */
     }
 
     .intro-box h1{
-        font-size: 25px;
+        font-size: 30px;
         color: black;
     }
 
