@@ -88,11 +88,13 @@
 
     .intro-box h1{
         font-size: 35px;
+        color: black;
     }
 
     
     .intro-box h2{
         font-size: 25px;
+        color: black;
     }
 
 
@@ -105,11 +107,13 @@
 
     .intro-box h1{
         font-size: 15px;
+        color: black;
     }
 
     
     .intro-box h2{
         font-size: 10px;
+        color: black;
     }
 
 
