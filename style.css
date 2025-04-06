@@ -16,7 +16,7 @@
     display: flex;
     flex-wrap: wrap; /* Ensures that the items wrap on smaller screens */
     justify-content: space-around;
-    padding: 20px;  
+    padding: 10px;  
     justify-content: center;
     text-align: justify;
     align-items: center;
@@ -31,23 +31,21 @@
     font-weight: bold;
 
     color: rgb(8, 8, 8);
-    margin: 10px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     flex: 1 1 calc(33% - 20px); /* Each box takes up 33% of the width, minus space for margins */
     box-sizing: border-box; /* Ensures padding and margin are included in width calculation */
   }
 
-
+/*
   
 .intro-images{
     width: 100%;
-   
     object-fit: cover;
     position: relative;
 }
 
-
+*/
 
   
 .intro-box h1{
